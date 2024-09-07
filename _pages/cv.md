@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<embed src="/files/cCV-Qilin.pdf" type="application/pdf"/>
+
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
