@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="/files/cCV-Qilin.pdf" type="application/pdf"/>
+<embed src="/files/CV-Qilin.pdf" type="application/pdf"/>
 
 Education
 ======
