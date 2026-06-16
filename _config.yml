@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Qilin Li / Dr"
+title                    : "Qilin Li / Senior Lecturer"
 title_separator          : "-"
 name                     : &name "Qilin Li"
-description              : &description "Machine learning researcher working on structural engineering"
+description              : &description "AI researcher working on intelligent infrastructure and structural health monitoring"
 url                      : https://qilinli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "qilinli/qilinli.github.io"
@@ -21,10 +21,10 @@ repository               : "qilinli/qilinli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "QILIN LI-21-1080.jpg"
+  avatar           : "Qilin-17-crop.png"
   name             : "Qilin Li"
-  pronouns         : # example: "she/her"  
-  bio              : "Machine learning researcher working on structural engineering"
+  pronouns         : # example: "she/her"
+  bio              : "AI researcher working on intelligent infrastructure and structural health monitoring"
   location         : "Perth, Australia"
   employer         : "Curtin University"
   uri              : # URL

@@ -9,7 +9,13 @@ redirect_from:
 
 <!-- {% include base_path %} -->
 
-<embed src="/files/CV-Qilin.pdf" type="application/pdf" width="70%" height="50px"/>
+<p>
+  <a href="/files/CV-Qilin.pdf" class="btn btn--primary" target="_blank" rel="noopener">Download CV (PDF)</a>
+</p>
+
+<embed src="/files/CV-Qilin.pdf" type="application/pdf" width="100%" height="1000px" />
+
+<p>If the PDF does not display above, you can <a href="/files/CV-Qilin.pdf">download it here</a>.</p>
 
 <!-- Education
 ======
