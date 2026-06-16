@@ -6,8 +6,7 @@ permalink: /publication/2024-01-01-MaskFormer
 excerpt: 'This paper is about structural component and structural damage identification via vision-based semantic segmentation with SOTA Transformer networks.'
 date: 2024-01-01
 venue: 'Structural Health Monitoring'
-slidesurl: 'https://github.com/qilinli/bleve-graph-net'
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0045794923002183'
+paperurl: 'https://doi.org/10.1177/14759217231182303'
 citation: 'Wang, Ruhua, Yanda Shao, Qilin Li, Ling Li, Jun Li, and Hong Hao. &quot;A novel transformer-based semantic segmentation framework for structural condition assessment.&quot; Structural Health Monitoring 23, no. 2 (2024): 1170-1183.'
 ---
 
