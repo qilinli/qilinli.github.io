@@ -16,7 +16,11 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# wdm 0.1.x fails to build on Ruby 3.x; optional Windows file-watcher (live site builds on Linux without it)
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# Windows lacks a zoneinfo database; tzinfo-data is needed for the configured timezone
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
