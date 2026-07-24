@@ -7,11 +7,11 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Qilin Li / Senior Lecturer"
+locale                   : "en-AU"
+title                    : "Qilin Li / Senior Lecturer & ARC DECRA Fellow"
 title_separator          : "-"
 name                     : &name "Qilin Li"
-description              : &description "AI researcher working on intelligent infrastructure and structural health monitoring"
+description              : &description "Senior Lecturer and ARC DECRA Fellow at Curtin University — AI for intelligent infrastructure and structural health monitoring"
 url                      : https://qilinli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "qilinli/qilinli.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "Qilin-17-crop.png"
   name             : "Qilin Li"
   pronouns         : # example: "she/her"
-  bio              : "AI researcher working on intelligent infrastructure and structural health monitoring"
+  bio              : "Senior Lecturer & ARC DECRA Fellow — AI for intelligent infrastructure and structural health monitoring"
   location         : "Perth, Australia"
   employer         : "Curtin University"
   uri              : # URL
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=KpqM4F4AAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-6584-8879"
+  orcid            : "https://orcid.org/0000-0001-6584-8879"
   semantic         : # URL
   pubmed           : # URL
   researchgate     : "https://www.researchgate.net/profile/Qilin-Li-11"
@@ -141,6 +141,10 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://scholar.google.com/citations?user=KpqM4F4AAAAJ"
+    - "https://orcid.org/0000-0001-6584-8879"
+    - "https://www.linkedin.com/in/li-qilin-78b119106/"
+    - "https://github.com/qilinli"
 
 
 # Analytics
@@ -291,7 +295,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Australia/Perth # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -320,12 +324,7 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# (category/tag archive pages removed — site has no blog posts)
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:

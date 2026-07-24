@@ -1,4 +1,39 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  (function () {
+    var toggle = document.querySelector(".greedy-nav button");
+    var hiddenLinks = document.querySelector(".greedy-nav .hidden-links");
+
+    // Keep the nav toggle's aria-expanded in sync with the actual menu state
+    // (the greedy-nav plugin can also close the menu on window resize).
+    function syncAria() {
+      if (toggle && hiddenLinks) {
+        toggle.setAttribute("aria-expanded", String(!hiddenLinks.classList.contains("hidden")));
+      }
+    }
+
+    // Re-run the greedy-nav width calculation once webfonts finish loading —
+    // otherwise first-visit desktop users see the nav collapsed into the hamburger
+    // (links were measured with the wider fallback font). The plugin restores at
+    // most ONE hidden link per resize event, so dispatch once per nav item.
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(function () {
+        var count = document.querySelectorAll(".greedy-nav li").length || 8;
+        for (var i = 0; i < count; i++) {
+          window.dispatchEvent(new Event("resize"));
+        }
+        syncAria();
+      });
+    }
+
+    if (toggle) {
+      // setTimeout lets the plugin's own click handler toggle the menu first.
+      toggle.addEventListener("click", function () { setTimeout(syncAria, 0); });
+    }
+    window.addEventListener("resize", function () { setTimeout(syncAria, 0); });
+  })();
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
