@@ -9,13 +9,14 @@ redirect_from:
   - /resume
 ---
 
-Greetings! I am Qilin (*Chee-Lyn*), a Senior Lecturer and ARC DECRA Fellow at [Curtin University](https://www.curtin.edu.au/), Australia, within the Discipline of AI & Data Science at the [School of Electrical Engineering, Computing and Mathematical Sciences (EECMS)](https://www.curtin.edu.au/about/learning-teaching/science-engineering/school-of-electrical-engineering-computing-and-mathematical-sciences/). My role spans teaching and research, and my work sits at the intersection of artificial intelligence, machine learning, and computer vision with civil and structural engineering. My research develops data-driven models for intelligent infrastructure — spanning vision-based structural health monitoring, data-driven structural dynamics and blast simulation, digital twins, and, most recently, agentic AI and large language models for autonomous infrastructure monitoring — aiming to advance the state of the art and contribute to more efficient, effective, and sustainable engineering solutions.
+Greetings! I am Qilin (*Chee-Lyn*), a Senior Lecturer and ARC DECRA Fellow at [Curtin University](https://www.curtin.edu.au/), Australia, within the Discipline of AI & Data Science at the [School of Electrical Engineering, Computing and Mathematical Sciences (EECMS)](https://www.curtin.edu.au/about/learning-teaching/science-engineering/school-of-electrical-engineering-computing-and-mathematical-sciences/). My role spans teaching and research: I coordinate Curtin's AI programs of study as **AI Specialisation Coordinator** (Bachelor) and **AI Major Coordinator** (Master of Computing), and my work sits at the intersection of artificial intelligence, machine learning, and computer vision with civil and structural engineering. My research develops data-driven models for intelligent infrastructure — spanning vision-based structural health monitoring, data-driven structural dynamics and blast simulation, digital twins, and, most recently, agentic AI and large language models for autonomous infrastructure monitoring — aiming to advance the state of the art and contribute to more efficient, effective, and sustainable engineering solutions.
 
 News
 ------
 * **2026** — Chairing the special session *Emerging AI Methods for Structural Engineering* at ICES2026 (2nd International Conference on Engineering Structures), Brisbane, 1–4 December 2026.
 * **2026** — Awarded an **ARC DECRA** Fellowship (A$510,000) for *Next-Generation Agentic AI System for Intelligent Infrastructure Monitoring*.
 * **2026** — Promoted to **Senior Lecturer** at Curtin University.
+* **2025** — Appointed **AI Specialisation Coordinator** (Bachelor) and **AI Major Coordinator** (Master of Computing), leading AI curriculum design across the Faculty and Curtin's international campuses.
 * **2025** — Awarded the **National Road Safety Action Grant** (A$641,436) for AI-assisted design of sustainable road barriers.
 * **2025** — Awarded a **Curtin Trailblazer EMCR Grant** for an AI-empowered multi-modality digital twin.
 * **2025** — Appointed **Guest Editor** for the *Buildings* special issue on AI-powered structural health monitoring.
